@@ -1,7 +1,7 @@
 <?php
 session_start ();
-$_SESSION ["prenom"] = "oth"; 
-$_SESSION ["nom"] = "dk"  ; 
+$_SESSION ["prenom"] = ""; 
+$_SESSION ["nom"] = ""  ; 
 ?>
 
 

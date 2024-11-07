@@ -7,11 +7,11 @@ $emailError = "";
 $passwordError = ""; 
 if (isset($_POST ["submit"])) {
 
-    $EmailValue =$_POST ["Email"] ; 
+    $EmailValue =$_POST ["email"] ; 
     $passwordValue = $_POST ["password"] ; 
 
 
-     if  (empty ($emailValue) || empty ($passwordValue)) {
+     if  (empty ($emailValue) ) {
 
     $emailError=  'email must be filled out' ; 
 }
